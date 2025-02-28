@@ -3,7 +3,7 @@ package com.github.nicolasholanda.creational.model;
 /**
  * Represents a door between two rooms.
  */
-public class Door implements MapSite {
+public abstract class Door implements MapSite {
 
     private Room room1;
     private Room room2;
@@ -23,14 +23,7 @@ public class Door implements MapSite {
     }
 
     @Override
-    public void enter() {
-        if(isOpen) {
-            System.out.println("You pass through the door.");
-            return;
-        }
-
-        System.out.println("The door is closed.");
-    }
+    public abstract void enter();
 
     /**
      * Gets the other room connected by the door.
@@ -40,6 +33,31 @@ public class Door implements MapSite {
      */
     public Room otherSideFrom(Room currentRoom) {
         return currentRoom == room1 ? room2 : room1;
+    }
+
+    /**
+     * Checks if the door is open.
+     * 
+     * @return True if the door is open, false if it is closed.
+     */
+    public boolean isOpen() {
+        return isOpen;
+    }
+
+    /**
+     * Opens the door.
+     */
+    public void open() {
+        isOpen = true;
+        System.out.println("The door is now open.");
+    }
+
+    /**
+     * Closes the door.
+     */
+    public void close() {
+        isOpen = false;
+        System.out.println("The door is now closed.");
     }
 
 }

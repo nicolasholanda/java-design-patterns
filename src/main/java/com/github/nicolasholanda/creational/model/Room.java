@@ -5,7 +5,7 @@ package com.github.nicolasholanda.creational.model;
  * It stores the references to the other {@link MapSite} objects
  * and the room number.
  */
-public class Room implements MapSite {
+public abstract class Room implements MapSite {
 
     private final int roomNumber;
     private final MapSite[] sides = new MapSite[4];
@@ -24,9 +24,7 @@ public class Room implements MapSite {
      * Otherwise, player location will change to this room.
      */
     @Override
-    public void enter() {
-        System.out.println("You have entered the room " + roomNumber + ".");
-    }
+    public abstract void enter();
 
     /**
      * Gets the side of the room in the specified direction.
