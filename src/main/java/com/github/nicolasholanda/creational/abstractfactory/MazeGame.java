@@ -44,6 +44,7 @@ public class MazeGame {
         return maze;
     }
 
+    // Demonstrates how to use the Abstract Factory
     public static void main(String[] args) {
         Maze maze;
         MazeGame game = new MazeGame();
