@@ -48,4 +48,13 @@ public class ExplosiveDoor extends Door {
             System.out.println("This door is not exploded yet. You need to explode it first!");
         }
     }
+
+    /**
+     * Overridden method to attempt open the door.
+     * The door can't be opened, only exploded.
+     */
+    @Override
+    public void open() {
+        System.out.println("This door can't be opened. You must explode it first!");
+    }
 }

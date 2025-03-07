@@ -55,4 +55,26 @@ public class DoorNeedingSpell extends Door {
             System.out.println("The door requires the spell: " + spellRequired + " to open.");
         }
     }
+
+    @Override
+    public void open() {
+        if(isOpen()) {
+            System.out.println("This door is already open.");
+        } else {
+            System.out.println("You must provide a spell to open this door!");
+        }
+    }
+
+    public void open(String spell) {
+        if(isOpen()) {
+            System.out.println("This door is already open!");
+            return;
+        }
+
+        if(this.spellRequired.equals(spell)) {
+            super.open();
+        } else {
+            System.out.println("Wrong spell!");
+        }
+    }
 }

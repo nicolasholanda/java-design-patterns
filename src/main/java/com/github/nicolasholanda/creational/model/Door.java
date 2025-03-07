@@ -60,4 +60,11 @@ public abstract class Door implements MapSite {
         System.out.println("The door is now closed.");
     }
 
+    public Room getRoom1() {
+        return this.room1;
+    }
+
+    public Room getRoom2() {
+        return this.room2;
+    }
 }
