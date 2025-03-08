@@ -94,7 +94,7 @@ classDiagram
 * **Client** (MazeGame): Uses only interfaces declared by Abstract Factory classes and Abstract Product.
 
 ## Pros and Cons
-| ** ✅ Pros**                                      | **❌ Cons**                                      |
+| **✅ Pros**                                      | **❌ Cons**                                      |
 |------------------------------------------------|-----------------------------------------------|
 | **Decouples client code from concrete classes**: The client interacts only with abstract interfaces, not specific classes. | **Complexity**: Adding new products or variations increases the complexity of the system, especially as the number of product types grows. |
 | **Easier to add new variants**: New product families can be added without changing existing client code. | **Increased number of classes**: You need to create many classes to implement the pattern, which can increase the size of the codebase. |
