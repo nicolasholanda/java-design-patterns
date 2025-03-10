@@ -27,7 +27,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Singleton
 
 ### Structural Patterns
-- [ ] Adapter
+- [x] Adapter
 - [ ] Bridge
 - [ ] Composite
 - [ ] Decorator
