@@ -28,7 +28,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 
 ### Structural Patterns
 - [x] Adapter
-- [ ] Bridge
+- [x] Bridge
 - [ ] Composite
 - [ ] Decorator
 - [ ] Facade
