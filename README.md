@@ -29,7 +29,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 ### Structural Patterns
 - [x] Adapter
 - [x] Bridge
-- [ ] Composite
+- [x] Composite
 - [ ] Decorator
 - [ ] Facade
 - [ ] Flyweight
