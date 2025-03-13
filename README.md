@@ -30,7 +30,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Adapter
 - [x] Bridge
 - [x] Composite
-- [ ] Decorator
+- [x] Decorator
 - [ ] Facade
 - [ ] Flyweight
 - [ ] Proxy
