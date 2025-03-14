@@ -31,7 +31,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Bridge
 - [x] Composite
 - [x] Decorator
-- [ ] Facade
+- [x] Facade
 - [ ] Flyweight
 - [ ] Proxy
 
