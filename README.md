@@ -32,7 +32,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Composite
 - [x] Decorator
 - [x] Facade
-- [ ] Flyweight
+- [x] Flyweight
 - [ ] Proxy
 
 ### Behavioral Patterns
