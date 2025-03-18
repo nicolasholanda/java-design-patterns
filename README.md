@@ -33,7 +33,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Decorator
 - [x] Facade
 - [x] Flyweight
-- [ ] Proxy
+- [x] Proxy
 
 ### Behavioral Patterns
 - [ ] Chain of Responsibility
