@@ -36,7 +36,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Proxy
 
 ### Behavioral Patterns
-- [ ] Chain of Responsibility
+- [x] Chain of Responsibility
 - [ ] Command
 - [ ] Interpreter
 - [ ] Iterator
