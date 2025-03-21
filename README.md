@@ -38,7 +38,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 ### Behavioral Patterns
 - [x] Chain of Responsibility
 - [x] Command
-- [ ] Interpreter
+- [x] Interpreter
 - [ ] Iterator
 - [ ] Mediator
 - [ ] Memento
