@@ -39,7 +39,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Chain of Responsibility
 - [x] Command
 - [x] Interpreter
-- [ ] Iterator
+- [x] Iterator
 - [ ] Mediator
 - [ ] Memento
 - [ ] Observer
