@@ -40,7 +40,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Command
 - [x] Interpreter
 - [x] Iterator
-- [ ] Mediator
+- [x] Mediator
 - [ ] Memento
 - [ ] Observer
 - [ ] State
