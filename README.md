@@ -41,7 +41,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Interpreter
 - [x] Iterator
 - [x] Mediator
-- [ ] Memento
+- [x] Memento
 - [ ] Observer
 - [ ] State
 - [ ] Strategy
