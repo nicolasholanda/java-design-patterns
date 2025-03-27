@@ -42,7 +42,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Iterator
 - [x] Mediator
 - [x] Memento
-- [ ] Observer
+- [x] Observer
 - [ ] State
 - [ ] Strategy
 - [ ] Template Method
