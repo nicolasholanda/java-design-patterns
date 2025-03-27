@@ -43,7 +43,7 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Mediator
 - [x] Memento
 - [x] Observer
-- [ ] State
+- [x] State
 - [ ] Strategy
 - [ ] Template Method
 - [ ] Visitor
