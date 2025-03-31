@@ -45,5 +45,5 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] Observer
 - [x] State
 - [x] Strategy
-- [ ] Template Method
+- [x] Template Method
 - [ ] Visitor
