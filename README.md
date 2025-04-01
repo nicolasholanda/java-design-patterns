@@ -46,4 +46,4 @@ Above, see the list of design patterns and, for each one, a checkbox indicating 
 - [x] State
 - [x] Strategy
 - [x] Template Method
-- [ ] Visitor
+- [x] Visitor
